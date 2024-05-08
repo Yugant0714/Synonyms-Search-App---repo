@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #e5e7eb;
+}
+.container {
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10rem;
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  height: 100%;
+}
+button {
+  border: none;
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  transition: 0.3s ease;
+  background-color: lawngreen;
+}
+button:hover {
+  background-color: greenyellow;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: start;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  background-color: white;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border-radius: 5px;
+  padding: 10px;
+}
+li {
+  margin: 5px;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+  padding: 5px 12px;
+  font-size: 14px;
+  background-color: white;
+}
